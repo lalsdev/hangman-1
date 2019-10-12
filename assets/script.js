@@ -47,7 +47,7 @@ function checkLetterInSecretWord(input){
     livesDisplay.innerHTML=lives;
     document.getElementById("robot").setAttribute("src", "assets/img/"+lives+".png");
     if (lives <= 0){
-        document.getElementById("pRegles").innerHTML = "Game Over";
+        document.getElementById("pRegles").innerHTML = "Sorry, Game Over";
         document.querySelectorAll(".lettreCheck").forEach( button => {
             button.disabled = true;
         });

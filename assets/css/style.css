@@ -1,7 +1,27 @@
-.img{
-    width : 400px;
-    height: 500px;
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+.img {
+  width: 300px;
+  height: 400px;
+  border-radius: 50%;
 }
-body{
-    background-color: aqua;
+
+html, body {
+  font-family: 'Poppins', sans-serif !important;
 }
+
+body {
+  background-image: url("../img/bggg.png");
+}
+
+.petit {
+  font-size: 15px;
+}
+
+.btnstyle {
+  width: 2em;
+  border-radius: 50%;
+  background-color: lightblue;
+  font-size: 20px;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=style.css.map */
